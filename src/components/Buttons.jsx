@@ -9,6 +9,7 @@ const Container = styled.div`
   a:active,
   a:hover {
     outline: 0;
+    transition: 0.5s;
   }
 
   .button-container {

@@ -8,7 +8,7 @@ const P = {
   Container: styled.div`
     transition: background-color 0.5s linear;
     position: absolute;
-    background-color: ${({ theme }) => theme.background};
+    background-image: ${({ theme }) => theme.background};
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
