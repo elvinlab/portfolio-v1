@@ -1,5 +1,5 @@
 {
-  "homepage": "https://elvinlab.github.io/profile",
+  "homepage": "https://elvinlab.github.io",
   "name": "profile",
   "version": "2.0.1",
   "private": true,
@@ -14,7 +14,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
