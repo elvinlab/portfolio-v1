@@ -36,7 +36,7 @@ export const Content = () => {
 
   return (
     <div>
-      <C.Name theme={theme} data-v2='name' aria-label='My name is Elvin González'>Elvin González González</C.Name>
+      <C.Name theme={theme} data-v2='name' aria-label='My name is Elvin González'>Elvin González</C.Name>
       <C.Title theme={theme} data-v2='title' aria-label='I am a software engineer'>Software Engineer</C.Title>
     </div>
   );

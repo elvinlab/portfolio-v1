@@ -29,12 +29,12 @@ export const Footer = () => {
   return (
     <F.Container isMobile={isMobile}>
       <F.Text theme={theme} aria-label='Designed and built by Elvin González'>Designed and built by&nbsp;
-        <F.Link theme={theme} data-v2='creator' href='https://github.com/elvinlab'>Elvin González</F.Link>
+        <F.Link theme={theme} data-v2='creator' href='https://elvinlab.github.io/profile/'>elvinlab</F.Link>
         {isMobile ? (
           <></>
         ) : (
           <>
-            &nbsp;|&nbsp;<F.Link theme={theme} data-v2='source' aria-label='Source code' href='https://github.com/elvinlab/'>Sources</F.Link>
+            &nbsp;|&nbsp;<F.Link theme={theme} data-v2='source' aria-label='Source code' href='https://github.com/elvinlab/profile'>Source</F.Link>
           </>
         )}
       </F.Text>
